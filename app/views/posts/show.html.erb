@@ -1,5 +1,5 @@
 <p id="notice"><%= notice %></p>
-
+<%= image_tag @post.cover.url if @post.cover? %>
 <p>
   <strong>Title:</strong>
   <%= @post.title %>

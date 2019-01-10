@@ -42,6 +42,7 @@ group :development, :test do
 
 end
 gem 'will_paginate', '~> 3.1', '>= 3.1.6'
+gem 'carrierwave', '~> 0.11.2'
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 3.3.0'
